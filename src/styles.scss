@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(34, 34, 34);
+  color: rgb(235, 235, 235);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+#react-root {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 15px;
+  font-size: 24px;
+  line-height: 1.8;
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: inset 0px 0px 0px 4px rgba(1, 1, 1, 0.40);
+}
+
+.btn.btn-disabled:hover {
+  box-shadow: none !important;
+  cursor: not-allowed;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}

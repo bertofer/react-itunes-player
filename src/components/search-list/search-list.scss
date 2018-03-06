@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+
+  input {
+    width: 74%;
+    font-size: 24px;
+  }
+  .btn {
+    width: 24%;
+    background-color: rgb(255, 127, 80);
+    color: black;
+  }
+}
+
+.order-buttons {
+  margin-top: 15px;
+  align-self: flex-end;
+  .order-btn {
+    i {
+      margin-left: 5px;
+    }
+    height: 50px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}
+
+.list-items {
+  width: 100%;
+}
